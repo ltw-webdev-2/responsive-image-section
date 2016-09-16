@@ -1,0 +1,68 @@
+@-moz-viewport { width : device-width; scale: 1;}
+@-ms-viewport { width : device-width; scale: 1;}
+@-o-viewport { width : device-width; scale: 1;}
+@-webkit-viewport { width : device-width; scale: 1;}
+@viewport { width : device-width; scale: 1;}
+
+
+
+   html {
+     background-color: #e2e2e2;
+   }
+
+   h1, h2 {
+     color: red;
+     font-weight: normal;
+     font-size: 5rem;
+     line-height: 1;
+     text-shadow: 2px -5px 10px red;
+
+     /*
+     text shadow
+     horizontal offset
+     vertical offset
+     blur radius/size
+     colour
+     */
+   }
+
+   p {
+     font-style: italic;
+     text-align: center;
+     /*
+     left
+     center
+     right
+     justify
+     */
+
+     /*
+     text-decoration: underline;
+     text-decoration: line-through;
+     */
+     font-family: 'Oswald', sans-serif;
+   }
+
+   ol {
+     list-style-type: disc;
+     /*
+     none
+     lower-roman
+     lower-alpha
+     decimal
+     circle
+     disc
+     */
+
+     /*
+     padding: 0;
+     */
+   }
+
+   a {
+     color: green;
+   }
+
+   a:hover {
+     color: orange;
+   }
