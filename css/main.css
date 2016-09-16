@@ -13,7 +13,7 @@
    h1, h2 {
      color: #00000;
      font-family: sans-serif;
-     font-weight: normal;
+     font-weight: bold;
      font-size: 1.5rem;
      line-height: 1;
 
@@ -49,5 +49,11 @@
   text-align: center;
   padding: 1rem;
   color:white;
+  margin-bottom:  0;
+  margin-left:  0%;
 
+}
+
+strong{
+  font-family: sans-serif;
 }
