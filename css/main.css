@@ -12,10 +12,10 @@
 
    h1, h2 {
      color: #00000;
+     font-family: sans-serif;
      font-weight: normal;
      font-size: 5rem;
      line-height: 1;
-     text-shadow: 2px -5px 10px red;
 
      /*
      text shadow
