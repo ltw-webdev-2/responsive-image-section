@@ -42,3 +42,12 @@
      */
      font-family:sans-serif;
    }
+
+.button {
+  width: 100%;
+  background-color: #555;
+  text-align: center;
+  padding: 1rem;
+  color:white;
+
+}
