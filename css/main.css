@@ -14,7 +14,7 @@
      color: #00000;
      font-family: sans-serif;
      font-weight: normal;
-     font-size: 5rem;
+     font-size: 1.5rem;
      line-height: 1;
 
      /*
@@ -27,7 +27,7 @@
    }
 
    p {
-     font-style: italic;
+     font-style: normal;
      text-align: center;
      /*
      left
@@ -40,29 +40,5 @@
      text-decoration: underline;
      text-decoration: line-through;
      */
-     font-family: 'Oswald', sans-serif;
-   }
-
-   ol {
-     list-style-type: disc;
-     /*
-     none
-     lower-roman
-     lower-alpha
-     decimal
-     circle
-     disc
-     */
-
-     /*
-     padding: 0;
-     */
-   }
-
-   a {
-     color: green;
-   }
-
-   a:hover {
-     color: orange;
+     font-family:sans-serif;
    }
