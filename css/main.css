@@ -8,8 +8,18 @@
 
    html {
      background-color: #e2e2e2;
+     box-sizing: border-box;
+     text-size-adjust:100%;
    }
 
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+ .img-flex{
+   width: 100%;
+   display: inline-block;
+ }
    h1, h2 {
      color: #00000;
      font-family: sans-serif;
@@ -48,7 +58,8 @@
   text-align: center;
   padding: 0.5em 0.75em;
   color:white;
-
+  border-radius: 4px;
+  font-family: sans-serif;
 }
 
 strong{
