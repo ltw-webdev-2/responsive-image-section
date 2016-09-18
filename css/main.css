@@ -8,8 +8,6 @@
 
    html {
      background-color: #e2e2e2;
-     box-sizing: border-box;
-     text-size-adjust:50%;
    }
 
 *, *::before, *::after{
@@ -17,8 +15,8 @@
 }
 
  .img-flex{
+   display: block;
    width: 100%;
-   display: inline-block;;
  }
    h1, h2 {
      color: #00000;
@@ -60,11 +58,6 @@ strong {
 
 
 @media only screen and (min-width: 38em) {
-  .img-flex{
-    width: 50%;
-    position: absolute;
-     left:73px;
-  }
 
   h1, h2 {
     color: #00000;
@@ -82,4 +75,38 @@ strong {
 
   }
   @media only screen and (min-width: 60em) {
+
+
+    h1, h2 {
+      color: #00000;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 110%;
+      line-height: 1.4;
+    }
+
+    p {
+      font-style: normal;
+      text-align: left;
+      font-family:sans-serif;
+      margin: 0 0 1.4em;
+
+    }
     @media only screen and (min-width: 90em) {
+
+
+      h1, h2 {
+        color: #00000;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 110%;
+        line-height: 1.4;
+      }
+
+      p {
+        font-style: normal;
+        text-align: left;
+        font-family:sans-serif;
+        margin: 0 0 1.4em;
+
+      }
