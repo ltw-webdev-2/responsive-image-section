@@ -9,7 +9,7 @@
    html {
      background-color: #e2e2e2;
      box-sizing: border-box;
-     text-size-adjust:100%;
+     text-size-adjust:50%;
    }
 
 *, *::before, *::after{
@@ -24,8 +24,8 @@
      color: #00000;
      font-family: sans-serif;
      font-weight: bold;
-     font-size: 1.5rem;
-     line-height: 1;
+     font-size: 1.3rem;
+     line-height: 1.3;
 
      /*
      text shadow
@@ -39,18 +39,9 @@
    p {
      font-style: normal;
      text-align: left;
-     /*
-     left
-     center
-     right
-     justify
-     */
-
-     /*
-     text-decoration: underline;
-     text-decoration: line-through;
-     */
      font-family:sans-serif;
+     margin: 0 0 1.3rem;
+
    }
 
 .button {
@@ -60,14 +51,35 @@
   color:white;
   border-radius: 4px;
   font-family: sans-serif;
-  width: 30%;
+  width: 25%;
 }
 
-strong{
+strong {
   font-family: sans-serif;
 }
 
 
 @media only screen and (min-width: 38em) {
+  .img-flex{
+    width: 50%;
+    position: absolute;
+     left:73px;
+  }
+
+  h1, h2 {
+    color: #00000;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  p {
+    font-style: normal;
+    text-align: left;
+    font-family:sans-serif;
+    margin: 0 0 1.4em;
+
+  }
   @media only screen and (min-width: 60em) {
     @media only screen and (min-width: 90em) {
