@@ -18,7 +18,7 @@
 
  .img-flex{
    width: 100%;
-   display: inline-block;
+   display: inline-block;;
  }
    h1, h2 {
      color: #00000;
@@ -66,3 +66,8 @@
 strong{
   font-family: sans-serif;
 }
+
+
+@media only screen and (min-width: 38em) {
+  @media only screen and (min-width: 60em) {
+    @media only screen and (min-width: 90em) {
