@@ -19,7 +19,7 @@
    width: 100%;
  }
    h1, h2 {
-     color: #00000;
+     color: #000000;
      font-family: sans-serif;
      font-weight: bold;
      font-size: 1.3rem;
@@ -60,7 +60,7 @@ strong {
 @media only screen and (min-width: 38em) {
 
   h1, h2 {
-    color: #00000;
+    color: #000000;
     font-family: sans-serif;
     font-weight: bold;
     font-size: 110%;
@@ -78,7 +78,7 @@ strong {
 
 
     h1, h2 {
-      color: #00000;
+      color: #000000;
       font-family: sans-serif;
       font-weight: bold;
       font-size: 110%;
@@ -96,7 +96,7 @@ strong {
 
 
       h1, h2 {
-        color: #00000;
+        color: #000000;
         font-family: sans-serif;
         font-weight: bold;
         font-size: 110%;
